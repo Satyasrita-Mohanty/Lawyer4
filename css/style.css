@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+*{
+    box-sizing: border-box;
+}
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+.banner{
+    background-image: url(../images/banner1.jpg);
+    background-repeat: no-repeat;
+    height: 660px;
+    background-size: cover;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+}
+.jumbotron-header {
+    
+    padding: 10px 0px;
+}
+.navLink{
+   font-family: 'Montserrat', sans-serif;
+   color: #ffffff;
+   font-size: 15px;
+   text-decoration: none;
+}
+.navLink:hover{
+   text-decoration: none; 
+   color: #f9ff4d;
+}
+.active1{
+   color: #f9ff4d;  
+}
+.jumbotron-footer{
+   background:#060506 !important;
+	border-radius: 0px !important;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align:left;
+	padding: 100px 0px 40px 0px !important;
+    margin: 0px;
+}
+.footer-heading{
+	color: #fff;
+	font-size:16px;
+	text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	 font-family: 'Montserrat', sans-serif;
+ 
+}
+.footer-links{
+	color: #eee;
+	font-size:14px;
+	text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 0px 8px 0px;
+    line-height: 32px !important;
+}
+.footer-links:hover{
+	color: #fff !important;
+    text-decoration: none;
+}
+.footer-social-icon{
+    color: #fff;
+    font-size: 15px;
+}
+.logo{
+     color: #ffffff !important;
+     font-weight: bold;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 26px;
+     letter-spacing: 2px;
+}
+.topPadding{
+    position: relative;
+    top: 90px;
+    left: 30px;
+}
+.bigHeading{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.consulButton{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f9ff4d;
+    padding: 12px 19px;
+    font-weight: bold;
+}
+.consulButton:hover{
+    border: 2px solid  #f9ff4d;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navLink1{
+    color: #4d4d4d;
+    padding: 0px !important;
+}
+.navLink1:hover{
+    color: #4d4d4d;
+}
+.navLinkButton{
+   font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    background-color:  #f9ff4d;
+    padding: 14px 12px !important; 
+    text-align: center;
+}
+.navLinkButton:hover{
+    color: #000000; 
+}
+.subHeading{
+     font-family: 'Montserrat', sans-serif;
+    color: #f9ff4d;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.subHeading1{
+     font-family: 'Montserrat', sans-serif;
+    color: #f2f2f2;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.whiteBack{
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.colorBack{
+    background-color: #f9ff4d;
+    padding-top: 40px;
+    padding-bottom: 10px; 
+    text-align: center;
+    margin: 0px auto;
+    height: 150px;
+}
+.subHeadingColor{
+    color: #dee600;
+}
+.serviceHead{
+   font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.subHeading1Grey{
+   color: #808080;
+    letter-spacing: 0px;
+    font-size: 15px;
+    text-transform:lowercase;
+}
+.whiteBack1{
+   background-color: #ffffff;
+    padding: 40px 15px 30px 15px;
+    text-align: center;
+    margin: 0px auto !important;
+    border-radius: 8px;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.iconBox{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 64px;
+ }
+.iconBox i{
+    font-size: 30px;
+    color: #f9ff4d;
+    position: relative;
+    top: 29px;
+    font-weight: bold;
+}
+.serviceHeadSmall{
+    font-size: 19px;
+}
+.sideText{
+    padding-left: 35px;
+}
+.navLinkButton1{
+   background-color: transparent;
+    border: 2px solid #f9ff4d;
+    font-weight: bold;
+    display: block;
+}
+.blockDisplay{
+    display: block;
+    font-weight: bold;
+}
+.borderBack{
+   background-color:  #f2f2f2;
+   border:1px solid  #cccccc;
+   padding:10px 10px 10px 20px;
+    margin-top: 10px;
+}
+.marginLeft{
+   font-weight: bold;
+    margin-left: -30px;
+    padding: 20px 23px !important;
+    letter-spacing: 1px;
+}
+.sideImg{
+  width: 100%;
+    height: 548px;
+}
+
+
+
+
+
+
+/* Extra small devices (phones, 300px and down)  start*/
+@media only screen and (max-width: 300px) {
+   
+    
+}
+
+
+/* Extra small devices (phones, 320px and down)  start */
+@media only screen and (max-width: 320px) {
+
+
+}
+
+
+/* Medium devices ( 767px and down) start */
+@media only screen and (max-width: 767px){ 
+
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  start*/
+@media only screen and (min-width: 768px) {
+
+    
+}
+    
+
+/* Medium devices ( 768px and down) start */
+@media only screen and (max-width: 768px){ 
+    .bigHeading{
+        font-size: 35px;
+    }
+  
+   
+    
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up)  start*/
+@media only screen and (min-width: 992px) {
+ .navLink{
+    padding: 0px 4px;     
+ }
+    
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  start*/
+@media only screen and (min-width: 1200px) {
+.navLink{
+    padding: 0px 14px;     
+  }
+  
+}

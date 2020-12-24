@@ -91,7 +91,6 @@ nav{
 .topPadding{
     position: relative;
     top: 90px;
-    left: 30px;
 }
 .bigHeading{
     font-family: 'Montserrat', sans-serif;
@@ -291,6 +290,9 @@ nav{
  .navLink{
     padding: 0px 4px;     
  }
+    .topPadding{
+        left: 30px;
+    }
     
 }
 

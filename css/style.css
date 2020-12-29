@@ -236,7 +236,7 @@ nav{
 }
 .sideImg{
   width: 100%;
-    height: 548px;
+    height: auto;
 }
 .backImg{
    background-image: url(../images/blog1.jpg);
@@ -354,19 +354,30 @@ nav{
 
 /* Extra small devices (phones, 320px and down)  start */
 @media only screen and (max-width: 320px) {
-
+ .banner{
+        height: 560px !important;
+    }
+    .bigHeading{
+        font-size: 22px !important;
+    }
+    .subHeading1{
+       font-size: 13px !important; 
+    }
+    .serviceHead{
+       font-size: 17px !important;  
+    }
+    .Heading1{
+        font-size: 17px !important;  
+    }
+    .subHeading{
+       font-size: 12px !important;   
+    }
 
 }
 
 
 /* Medium devices ( 767px and down) start */
 @media only screen and (max-width: 767px){ 
-    .a1{
-        margin-top: 20px !important;
-    }
-    .colorBack{
-        margin-top: 20px !important; 
-    }
     .a2{
         margin-bottom: 20px;
     }
@@ -376,6 +387,30 @@ nav{
     .backColor1{
         padding: 20px;
     }
+    .serviceHead{
+      font-size: 22px;
+    }
+    .Heading1{
+      font-size: 20px; 
+    }
+    .subHeading{
+       font-size: 14px; 
+    }
+    .subHeading1Grey{
+      font-size: 14px;   
+    }
+    .backImg{
+        height: 320px;
+    }
+    .subHeading1{
+       font-size: 15px;  
+    }
+    .mobilePadding{
+      margin-top: -45px;  
+    }
+    .banner{
+        height: 520px;
+    }
     
 }
 
@@ -384,7 +419,7 @@ nav{
 /* Medium devices (landscape tablets, 768px and up)  start*/
 @media only screen and (min-width: 768px) {
     .colorBack{
-        height: 150px;
+        height: auto;
     }
     
 }
@@ -393,12 +428,20 @@ nav{
 /* Medium devices ( 768px and down) start */
 @media only screen and (max-width: 768px){ 
     .bigHeading{
-        font-size: 35px;
+        font-size: 30px;
     }
-  
-   
-    
-
+    .navLink{
+      padding: 0px 7px;     
+    }
+    .a1{
+        margin-top: 15px !important;
+    }
+    .colorBack{
+        margin-top: 20px !important; 
+    }
+    .bottomGap{
+       margin-bottom: 20px; 
+    }
 }
 
 
@@ -406,10 +449,16 @@ nav{
 /* Large devices (laptops/desktops, 992px and up)  start*/
 @media only screen and (min-width: 992px) {
  .navLink{
-    padding: 0px 4px;     
- }
-    .topPadding{
-        left: 30px;
+    padding: 0px 7px;     
+  }
+  .topPadding{
+     left: 30px;
+   }
+   .sideImg{
+     height: 592px;
+   }
+    .colorBack{
+      height: 150px;
     }
     
 }
@@ -421,5 +470,7 @@ nav{
 .navLink{
     padding: 0px 14px;     
   }
-  
+  .sideImg{
+    height: 548px;
+  }
 }
